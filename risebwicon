@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RISE BW ICON</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: #ffffff;
+}
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    color: #00ffcc;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #000;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #00ffcc;
+}
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #000, #111);
+}
+.hero h2 {
+    font-size: 40px;
+}
+.btn {
+    padding: 12px 25px;
+    margin: 10px;
+    background: #00ffcc;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background: #111;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>RISE BW ICON</h1>
+<p>Rebuilding Identity. Empowering Talent. Elevating Botswana.</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#icons">ICON System</a>
+<a href="#nominate">Nominate</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Discover Botswana’s True Icons</h2>
+<p>A platform to empower, elevate and showcase talent.</p>
+<button class="btn">Nominate an ICON</button>
+<button class="btn">Join Movement</button>
+</section>
+
+<section id="about" class="section">
+<h2>About</h2>
+<p>RISE BW ICON is a national empowerment initiative focused on identifying and elevating individuals who demonstrate excellence, impact, and authenticity.</p>
+</section>
+
+<section id="icons" class="section">
+<h2>ICON Categories</h2>
+<div class="cards">
+<div class="card">Music & Arts</div>
+<div class="card">Business</div>
+<div class="card">Sports</div>
+<div class="card">Culture</div>
+<div class="card">Leadership</div>
+<div class="card">Technology</div>
+</div>
+</section>
+
+<section id="nominate" class="section">
+<h2>Nominate an ICON</h2>
+<form>
+<input type="text" placeholder="Full Name"><br>
+<input type="text" placeholder="Category"><br>
+<input type="text" placeholder="Location"><br>
+<textarea placeholder="Describe Impact"></textarea><br>
+<button class="btn">Submit</button>
+</form>
+</section>
+
+<section class="section">
+<h2>Our Mission</h2>
+<p>To discover, develop, and showcase individuals who inspire transformation and economic growth.</p>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p>Email: info@risebwicon.com</p>
+<p>Phone: +267 XXX XXX</p>
+</section>
+
+<footer>
+<p>© 2026 RISE BW ICON | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
